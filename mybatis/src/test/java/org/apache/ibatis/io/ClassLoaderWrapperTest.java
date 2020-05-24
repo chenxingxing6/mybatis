@@ -80,5 +80,4 @@ public class ClassLoaderWrapperTest extends BaseDataTest {
   public void getResourceAsStreamWithClassLoader() {
     assertNotNull(wrapper.getResourceAsStream(JPETSTORE_PROPERTIES, loader));
   }
-
 }
